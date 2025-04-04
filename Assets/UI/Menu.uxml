@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/reset.uss?fileID=7433441132597879392&amp;guid=6b0b46c811f11b842a4ed96208b57e3f&amp;type=3#reset" />
+    <Style src="project://database/Assets/UI/DefaultPetStyle.uss?fileID=7433441132597879392&amp;guid=80ee863b65fa7c34dadc2b687296d1a9&amp;type=3#DefaultPetStyle" />
+    <Style src="project://database/Assets/UI/Blurb.uss?fileID=7433441132597879392&amp;guid=5041a7cd82ba3dd428eca5ae4eaa4626&amp;type=3#Blurb" />
+    <engine:VisualElement name="Blurb" enabled="true" focusable="false" class="BlurbWindow">
+        <engine:VisualElement name="Buttons" class="BlurbButtonGroup" style="flex-direction: column-reverse; height: auto;">
+            <engine:VisualElement name="set-mode-btn" enabled="true" class="PDP Window BlurbButton Selectable unity-button">
+                <engine:Label text="Mode: Roam" name="mode-label" enable-rich-text="true" enabled="true" class="PDP Selectable" />
+            </engine:VisualElement>
+            <engine:VisualElement name="close" enabled="true" class="PDP Window BlurbButton Selectable unity-button">
+                <engine:Label text="Close" name="actions-label" enable-rich-text="true" enabled="true" class="PDP Selectable" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="tip" class="BlurbTip" />
+    </engine:VisualElement>
+</engine:UXML>

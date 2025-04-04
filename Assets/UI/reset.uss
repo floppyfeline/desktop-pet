@@ -1,0 +1,134 @@
+.unity-button:disabled {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.unity-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: transparent;
+}
+
+.unity-button:active {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.unity-button:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.unity-button {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: visible;
+}
+
+.unity-label {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.unity-disabled {
+    opacity: 1;
+}
+
+.unity-text-field {
+    margin: 0;
+}
+
+.unity-text-field #unity-text-input {
+    border-radius: 0;
+    border-width: 0;
+    padding: 0;
+}
+
+.unity-text-element {
+}
+
+.unity-progress-bar {
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.unity-progress-bar__container {
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: initial;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(0, 0, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    min-height: 15px;
+    max-height: 15px;
+    border-left-color: rgba(179, 188, 255, 0.2);
+    border-right-color: rgba(179, 188, 255, 0.2);
+    border-top-color: rgba(179, 188, 255, 0.2);
+    border-bottom-color: rgba(179, 188, 255, 0.2);
+    height: 4px;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(66, 66, 80);
+    border-top-left-radius: -2px;
+    border-top-right-radius: -2px;
+    border-bottom-right-radius: -2px;
+    border-bottom-left-radius: -2px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.unity-progress-bar__title {
+    color: rgb(203, 211, 255);
+}
+
+.BlurbButton {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 40%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out-back;
+    min-width: auto;
+    margin-top: 0;
+    margin-right: 1px;
+    margin-left: 1px;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}

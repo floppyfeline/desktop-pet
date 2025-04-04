@@ -1,0 +1,48 @@
+.PDP {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/CalcCien.ttf?fileID=12800000&guid=0a4718a6b7a2dc147b55bfe1590385aa&type=3#CalcCien");
+    font-size: 5px;
+    text-overflow: ellipsis;
+    align-self: center;
+    letter-spacing: -1px;
+    white-space: pre;
+}
+
+.PDP.Window {
+    background-color: rgb(35, 35, 38);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgba(179, 188, 255, 0.2);
+    border-right-color: rgba(179, 188, 255, 0.2);
+    border-top-color: rgba(179, 188, 255, 0.2);
+    border-bottom-color: rgba(179, 188, 255, 0.2);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.PDP.unity-label {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/CalcCien.ttf?fileID=12800000&guid=0a4718a6b7a2dc147b55bfe1590385aa&type=3#CalcCien");
+    font-size: 5px;
+    color: rgb(203, 211, 255);
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-property: font-size;
+    text-overflow: ellipsis;
+    align-self: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.PDP.Selectable {
+}
+
+.PDP.Selectable:hover {
+    color: rgb(255, 255, 255);
+}
