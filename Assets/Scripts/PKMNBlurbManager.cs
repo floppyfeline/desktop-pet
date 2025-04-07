@@ -15,7 +15,7 @@ public class PKMNBlurbManager : PKMNUIManager
     private Label _label;
     private VisualElement _menuContainer;
     [SerializeField]
-    private string _name = "Blurb";
+    private string _name => entity.Name;
 
     private bool _isEnabled = false;
 
@@ -78,9 +78,12 @@ public class PKMNBlurbManager : PKMNUIManager
 
         base.Start();
 
+
+
         _isEnabled = false;
         entity.OnHover += () => { SetEnabled(true); };
         entity.OnHoverExit += () => { SetEnabled(false); };
+        entity.OnNameUpdate += UpdateText;
 
 
         // ------------------
@@ -102,7 +105,7 @@ public class PKMNBlurbManager : PKMNUIManager
         // ------------------
         // Register mouse events for actions menu
         // ------------------
-        root.Q<VisualElement>("Actions").RegisterCallback<MouseDownEvent> (evt =>
+        root.Q<VisualElement>("Actions").RegisterCallback<MouseDownEvent>(evt =>
         {
             ToggleActionsMenu(true);
             SetEnabled(false, true); // Close the blurb when opening the actions menu
@@ -134,8 +137,10 @@ public class PKMNBlurbManager : PKMNUIManager
 
         OnOpenMenu += () =>
         {
-            if(!_menuContainer.enabledSelf) entity.OnInteract.Invoke();
+            if (!_menuContainer.enabledSelf) entity.OnInteract.Invoke();
         };
+
+        UpdateText(_name);
     }
 
     protected override void Update()

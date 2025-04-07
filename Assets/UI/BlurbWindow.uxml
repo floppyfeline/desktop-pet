@@ -10,7 +10,7 @@
                     <engine:Label text="Actions" name="actions-label" enable-rich-text="true" enabled="true" class="PDP Selectable" />
                 </engine:VisualElement>
             </engine:VisualElement>
-            <engine:ProgressBar value="43.4" title="Level" low-value="0" name="exp" enabled="false" class="EXP-Bar EXP-Container PDP" style="transform-origin: center 67%;" />
+            <engine:ProgressBar value="43.4" title="Level" low-value="0" name="exp" enabled="true" class="EXP-Bar EXP-Container PDP" style="transform-origin: center 67%;" />
         </engine:VisualElement>
         <engine:Button name="NameContainer" class="BlurbBox Window PDP">
             <engine:VisualElement name="Content" />

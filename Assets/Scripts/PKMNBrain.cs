@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Rendering;
 
 public enum Direction
 {
@@ -15,8 +16,31 @@ public enum PKMNMode
     Stationary,
     Roaming
 }
+[Serializable]
 public class PKMNBrain : MonoBehaviour
 {
+    public PKMNSpecies Species;
+    [SerializeField]
+    public bool IsShiny => _isShiny;
+    public bool _isShiny = false; // True if the PKMN is shiny, false if it's not
+
+    private bool _isWild;
+    public bool IsWild => _isWild; // True if the PKMN is wild, false if it's a trainer's PKMN
+
+    private string _name = "PKMN"; // Default name
+    public string Name
+    {
+        get => _name;
+        set
+        {
+            if (_name != value) // Optional check to only update if the value changes
+            {
+                _name = value;
+                OnNameUpdate?.Invoke(value); // Notify of the update
+            }
+        }
+    }
+
     private SpriteRenderer _pkmnSprite;
     [HideInInspector]
     public Rigidbody2D Rb;
@@ -47,6 +71,23 @@ public class PKMNBrain : MonoBehaviour
     public Action OnHappy;
     private ParticleSystem _particles;
 
+    public Action<string> OnNameUpdate;
+
+    public void Initialize(PKMNSpecies species, string name, bool isShiny, bool isWild, Sprite pkmnSprite, float speed, float activity, IMovement movement)
+    {
+        Species = species;
+        Name = name;
+        _isShiny = isShiny;
+        _isWild = isWild;
+        PKMNSpriteAnimations anims = GetComponentInChildren<PKMNSpriteAnimations>();
+        anims.SetSprite(pkmnSprite);
+
+        Speed = speed;
+        Activity = activity;
+        Movement = movement;
+        Debug.Log($"Initialized {species.Name} {name} with speed {speed} and activity {activity}");
+    }
+
     private void OnValidate()
     {
         Activity = Mathf.Clamp(Activity, 1, 10);
@@ -54,7 +95,7 @@ public class PKMNBrain : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        if(collision.gameObject.layer == LayerMask.NameToLayer("SideWall"))
         {
             OnWallHit?.Invoke();
         }
@@ -80,8 +121,11 @@ public class PKMNBrain : MonoBehaviour
         Rb = GetComponent<Rigidbody2D>();
         _pkmnSprite = GetComponentInChildren<SpriteRenderer>();
         ChangeBehaviour(new Waiting());
-        Movement = new Walking(this);
+
+        if (Movement == null) Movement = new Walking(this);
+
         _particles = GetComponentInChildren<ParticleSystem>();
+
         OnHappy += () =>
         {
             _particles.Stop();

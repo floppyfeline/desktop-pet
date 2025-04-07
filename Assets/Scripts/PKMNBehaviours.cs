@@ -119,7 +119,6 @@ public class Roaming : IBehaviour
     private void OnMoveCallback()
     {
         _stridesUntilNextAction--;
-        Debug.Log(_stridesUntilNextAction);
         if(_stridesUntilNextAction > 0) PerformStride();
     }
     private void OnHoveredOn()

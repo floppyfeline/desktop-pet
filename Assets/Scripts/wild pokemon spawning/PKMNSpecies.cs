@@ -45,6 +45,8 @@ public class PKMNSpecies
     public int EvolvesAtLevel = -1; // Level at which the species evolves(-1 if it doesn't evolve)
     public int EvolvesToID = -1;   // ID of the species it evolves into(-1 if it doesn't evolve)
     public string SpecialEvolutionMethod = ""; // Special method of evolution (e.g., trade, item, etc.)
+
+    public string Movement;
 }
 public enum PKMNType
 {
@@ -66,4 +68,8 @@ public enum PKMNType
     Dragon,
     Dark,
     Fairy
+}
+public class PKMNSpawnTable
+{
+    public List<PKMNSpecies> SpeciesList;
 }

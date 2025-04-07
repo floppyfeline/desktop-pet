@@ -1,0 +1,1936 @@
+{
+  "SpeciesList": [
+    {
+      "ID": 1,
+      "Name": "Bulbasaur",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 15,
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 2,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 2,
+      "Name": "Ivysaur",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 2,
+      "MinLevel": 16,
+      "MaxLevel": 34,
+      "EvolvesAtLevel": 36,
+      "EvolvesIntoID": 3,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 3,
+      "Name": "Venusaur",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": -1,
+      "Strength": 8,
+      "MinLevel": 32,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 4,
+      "Name": "Charmander",
+      "TypeStrings": [
+        "Fire"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 15,
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 5,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 5,
+      "Name": "Charmeleon",
+      "TypeStrings": [
+        "Fire"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 3,
+      "MinLevel": 16,
+      "MaxLevel": 34,
+      "EvolvesAtLevel": 36,
+      "EvolvesIntoID": 6,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 6,
+      "Name": "Charizard",
+      "TypeStrings": [
+        "Fire",
+        "Flying"
+      ],
+      "SpawnWeight": -1,
+      "Strength": 8,
+      "MinLevel": 32,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 7,
+      "Name": "Squirtle",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 15,
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 8,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 8,
+      "Name": "Wartortle",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 3,
+      "MinLevel": 16,
+      "MaxLevel": 34,
+      "EvolvesAtLevel": 36,
+      "EvolvesIntoID": 9,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 9,
+      "Name": "Blastoise",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": -1,
+      "Strength": 8,
+      "MinLevel": 32,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 10,
+      "Name": "Caterpie",
+      "TypeStrings": [
+        "Bug"
+      ],
+      "SpawnWeight": 90,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 6,
+      "EvolvesAtLevel": 7,
+      "EvolvesIntoID": 11,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 11,
+      "Name": "Metapod",
+      "TypeStrings": [
+        "Bug"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 7,
+      "MaxLevel": 9,
+      "EvolvesAtLevel": 10,
+      "EvolvesIntoID": 12,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Stationary"
+    },
+    {
+      "ID": 12,
+      "Name": "Butterfree",
+      "TypeStrings": [
+        "Bug",
+        "Flying"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 10,
+      "MaxLevel": 20,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 13,
+      "Name": "Weedle",
+      "TypeStrings": [
+        "Bug",
+        "Poison"
+      ],
+      "SpawnWeight": 90,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 6,
+      "EvolvesAtLevel": 7,
+      "EvolvesIntoID": 14,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 14,
+      "Name": "Kakuna",
+      "TypeStrings": [
+        "Bug",
+        "Poison"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 7,
+      "MaxLevel": 9,
+      "EvolvesAtLevel": 10,
+      "EvolvesIntoID": 15,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Stationary"
+    },
+    {
+      "ID": 15,
+      "Name": "Beedrill",
+      "TypeStrings": [
+        "Bug",
+        "Poison"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 10,
+      "MaxLevel": 30,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 16,
+      "Name": "Pidgey",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 90,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 17,
+      "EvolvesAtLevel": 18,
+      "EvolvesIntoID": 17,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 17,
+      "Name": "Pidgeotto",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 18,
+      "MaxLevel": 35,
+      "EvolvesAtLevel": 36,
+      "EvolvesIntoID": 18,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 18,
+      "Name": "Pidgeot",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 3,
+      "MinLevel": 16,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 19,
+      "Name": "Rattata",
+      "TypeStrings": [
+        "Normal"
+      ],
+      "SpawnWeight": 85,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 19,
+      "EvolvesAtLevel": 20,
+      "EvolvesIntoID": 20,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 20,
+      "Name": "Raticate",
+      "TypeStrings": [
+        "Normal"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 20,
+      "MaxLevel": 28,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 21,
+      "Name": "Spearow",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 85,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 19,
+      "EvolvesAtLevel": 20,
+      "EvolvesIntoID": 22,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 22,
+      "Name": "Fearow",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 20,
+      "MaxLevel": 28,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 23,
+      "Name": "Ekans",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 5,
+      "MaxLevel": 21,
+      "EvolvesAtLevel": 22,
+      "EvolvesIntoID": 24,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 24,
+      "Name": "Arbok",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 40,
+      "Strength": 4,
+      "MinLevel": 20,
+      "MaxLevel": 32,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 25,
+      "Name": "Pikachu",
+      "TypeStrings": [
+        "Electric"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 2,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 26,
+      "SpecialEvolutionMethod": "Thunder Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 26,
+      "Name": "Raichu",
+      "TypeStrings": [
+        "Electric"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 5,
+      "MinLevel": 22,
+      "MaxLevel": 36,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 27,
+      "Name": "Sandshrew",
+
+      "TypeStrings": [
+        "Ground"
+      ],
+
+      "SpawnWeight": 60,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 20,
+      "EvolvesAtLevel": 22,
+      "EvolvesIntoID": 27,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+
+    {
+      "ID": 28,
+      "Name": "Sandslash",
+
+      "TypeStrings": [
+        "Ground"
+      ],
+
+      "SpawnWeight": 40,
+      "Strength": 4,
+      "MinLevel": 22,
+      "MaxLevel": 36,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 29,
+      "Name": "Nidoran F",
+
+      "TypeStrings": [
+        "Poison"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 15,
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 29,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 30,
+      "Name": "Nidorina",
+
+      "TypeStrings": [
+        "Poison"
+      ],
+
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 16,
+      "MaxLevel": 36,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "Moon Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 31,
+      "Name": "Nidoqueen",
+
+      "TypeStrings": [
+        "Poison",
+        "Ground"
+      ],
+
+      "SpawnWeight": 10,
+      "Strength": 7,
+      "MinLevel": 40,
+      "MaxLevel": 60,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 32,
+      "Name": "Nidoran M",
+
+      "TypeStrings": [
+        "Poison"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 15,
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 32,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+
+    {
+      "ID": 33,
+      "Name": "Nidorino",
+
+      "TypeStrings": [
+        "Poison"
+      ],
+
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 16,
+      "MaxLevel": 30,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 34,
+
+      "SpecialEvolutionMethod": "Moon Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 34,
+      "Name": "Nidoking",
+
+      "TypeStrings": [
+        "Poison",
+        "Ground"
+      ],
+
+      "SpawnWeight": 10,
+      "Strength": 5,
+      "MinLevel": 30,
+      "MaxLevel": 50,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 35,
+      "Name": "Clefairy",
+
+      "TypeStrings": [
+        "Fairy"
+      ],
+
+      "SpawnWeight": 20,
+      "Strength": 3,
+      "MinLevel": 5,
+      "MaxLevel": 24,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 36,
+
+      "SpecialEvolutionMethod": "Moon Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 36,
+      "Name": "Clefable",
+
+      "TypeStrings": [
+        "Fairy"
+      ],
+
+      "SpawnWeight": 5,
+      "Strength": 6,
+      "MinLevel": 20,
+      "MaxLevel": 50,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 37,
+      "Name": "Vulpix",
+
+      "TypeStrings": [
+        "Fire"
+      ],
+
+      "SpawnWeight": 50,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 28,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 38,
+
+      "SpecialEvolutionMethod": "Fire Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 38,
+      "Name": "Ninetales",
+
+      "TypeStrings": [
+        "Fire"
+      ],
+
+      "SpawnWeight": 10,
+      "Strength": 6,
+      "MinLevel": 23,
+      "MaxLevel": 60,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 39,
+      "Name": "Jigglypuff",
+
+      "TypeStrings": [
+        "Normal",
+        "Fairy"
+      ],
+
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 1,
+      "MaxLevel": 34,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 40,
+
+      "SpecialEvolutionMethod": "Moon Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 40,
+      "Name": "Wigglytuff",
+
+      "TypeStrings": [
+        "Normal",
+        "Fairy"
+      ],
+
+      "SpawnWeight": 10,
+      "Strength": 6,
+      "MinLevel": 20,
+      "MaxLevel": 60,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 41,
+      "Name": "Zubat",
+
+      "TypeStrings": [
+        "Poison",
+        "Flying"
+      ],
+
+      "SpawnWeight": 90,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 21,
+      "EvolvesAtLevel": 22,
+      "EvolvesIntoID": 42,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 42,
+      "Name": "Golbat",
+
+      "TypeStrings": [
+        "Poison",
+        "Flying"
+      ],
+
+      "SpawnWeight": 60,
+      "Strength": 3,
+      "MinLevel": 22,
+      "MaxLevel": 40,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 43,
+      "Name": "Oddish",
+
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+
+      "SpawnWeight": 75,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 20,
+      "EvolvesAtLevel": 21,
+      "EvolvesIntoID": 44,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+
+    },
+    {
+      "ID": 44,
+      "Name": "Gloom",
+
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 21,
+      "MaxLevel": 36,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 45,
+
+      "SpecialEvolutionMethod": "Leaf Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 45,
+      "Name": "Vileplume",
+
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+
+      "SpawnWeight": 15,
+      "Strength": 6,
+      "MinLevel": 36,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 46,
+      "Name": "Paras",
+
+      "TypeStrings": [
+        "Bug",
+        "Grass"
+      ],
+
+      "SpawnWeight": 80,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 23,
+      "EvolvesAtLevel": 24,
+      "EvolvesIntoID": 47,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 47,
+      "Name": "Parasect",
+
+      "TypeStrings": [
+        "Bug",
+        "Grass"
+      ],
+
+      "SpawnWeight": 30,
+      "Strength": 3,
+      "MinLevel": 24,
+      "MaxLevel": 40,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 48,
+      "Name": "Venonat",
+
+      "TypeStrings": [
+        "Bug",
+        "Poison"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 23,
+      "EvolvesAtLevel": 31,
+      "EvolvesIntoID": 49,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 49,
+      "Name": "Venomoth",
+
+      "TypeStrings": [
+        "Bug",
+        "Poison"
+      ],
+
+      "SpawnWeight": 40,
+      "Strength": 3,
+      "MinLevel": 31,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 50,
+      "Name": "Diglett",
+
+      "TypeStrings": [
+        "Ground"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 2,
+      "MinLevel": 3,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 26,
+      "EvolvesIntoID": 51,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "On Floor"
+    },
+    {
+      "ID": 51,
+      "Name": "Dugtrio",
+
+      "TypeStrings": [
+        "Ground"
+      ],
+
+      "SpawnWeight": 20,
+      "Strength": 4,
+      "MinLevel": 26,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "On Floor"
+    },
+    {
+      "ID": 52,
+      "Name": "Meowth",
+
+      "TypeStrings": [
+        "Normal"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 28,
+      "EvolvesIntoID": 53,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 53,
+      "Name": "Persian",
+
+      "TypeStrings": [
+        "Normal"
+      ],
+
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 26,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 54,
+      "Name": "Psyduck",
+
+      "TypeStrings": [
+        "Water"
+      ],
+
+      "SpawnWeight": 65,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 33,
+      "EvolvesIntoID": 55,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 55,
+      "Name": "Golduck",
+
+      "TypeStrings": [
+        "Water"
+      ],
+
+      "SpawnWeight": 15,
+      "Strength": 5,
+      "MinLevel": 33,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 56,
+      "Name": "Mankey",
+
+      "TypeStrings": [
+        "Fighting"
+      ],
+
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 28,
+      "EvolvesIntoID": 57,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 57,
+      "Name": "Primeape",
+
+      "TypeStrings": [
+        "Fighting"
+      ],
+
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 29,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 58,
+      "Name": "Growlithe",
+
+      "TypeStrings": [
+        "Fire"
+      ],
+
+      "SpawnWeight": 35,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 59,
+
+      "SpecialEvolutionMethod": "Fire Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 59,
+      "Name": "Arcanine",
+
+      "TypeStrings": [
+        "Fire"
+      ],
+
+      "SpawnWeight": 2,
+      "Strength": 6,
+      "MinLevel": 26,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 60,
+      "Name": "Poliwag",
+
+      "TypeStrings": [
+        "Water"
+      ],
+
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 24,
+      "EvolvesAtLevel": 25,
+      "EvolvesIntoID": 61,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 61,
+      "Name": "Poliwhirl",
+
+      "TypeStrings": [
+        "Water"
+      ],
+
+      "SpawnWeight": 30,
+      "Strength": 3,
+      "MinLevel": 26,
+      "MaxLevel": 50,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 62,
+
+      "SpecialEvolutionMethod": "Water Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 62,
+      "Name": "Poliwrath",
+
+      "TypeStrings": [
+        "Water",
+        "Fighting"
+      ],
+
+      "SpawnWeight": 10,
+      "Strength": 6,
+      "MinLevel": 50,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 63,
+      "Name": "Abra",
+      "TypeStrings": [
+        "Psychic"
+      ],
+      "SpawnWeight": 70,
+      "Strength": -1,
+
+      "MinLevel": 1,
+      "MaxLevel": 15,
+
+      "EvolvesAtLevel": 16,
+      "EvolvesIntoID": 64,
+      "SpecialEvolutionMethod": "",
+
+      "Movement": "Default"
+    },
+    {
+      "ID": 64,
+      "Name": "Kadabra",
+      "TypeStrings": [
+        "Psychic"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 5,
+      "MinLevel": 16,
+      "MaxLevel": 40,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 65,
+      "SpecialEvolutionMethod": "Linking Cord",
+      "Movement": "Default"
+    },
+    {
+      "ID": 65,
+      "Name": "Alakazam",
+      "TypeStrings": [
+        "Psychic"
+      ],
+      "SpawnWeight": 3,
+      "Strength": 8,
+      "MinLevel": 40,
+      "MaxLevel": 60,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 66,
+      "Name": "Machop",
+      "TypeStrings": [
+        "Fighting"
+      ],
+      "SpawnWeight": 70,
+      "Strength": 3,
+      "MinLevel": 4,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 28,
+      "EvolvesIntoID": 67,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 67,
+      "Name": "Machoke",
+      "TypeStrings": [
+        "Fighting"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 28,
+      "MaxLevel": 50,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 68,
+      "SpecialEvolutionMethod": "Linking Cord",
+      "Movement": "Default"
+    },
+    {
+      "ID": 68,
+      "Name": "Machamp",
+      "TypeStrings": [
+        "Fighting"
+      ],
+      "SpawnWeight": 3,
+      "Strength": 8,
+      "MinLevel": 50,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": ""
+    },
+    {
+      "ID": 69,
+      "Name": "Bellsprout",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 20,
+      "EvolvesAtLevel": 21,
+      "EvolvesIntoID": 70,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 70,
+      "Name": "Weepinbell",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 3,
+      "MinLevel": 21,
+      "MaxLevel": 36,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 71,
+      "SpecialEvolutionMethod": "Leaf Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 71,
+      "Name": "Victreebel",
+      "TypeStrings": [
+        "Grass",
+        "Poison"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 6,
+      "MinLevel": 30,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 72,
+      "Name": "Tentacool",
+      "TypeStrings": [
+        "Water",
+        "Poison"
+      ],
+      "SpawnWeight": 70,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 22,
+      "EvolvesAtLevel": 30,
+      "EvolvesIntoID": 73,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 73,
+      "Name": "Tentacruel",
+      "TypeStrings": [
+        "Water",
+        "Poison"
+      ],
+      "SpawnWeight": 30,
+      "Strength": 3,
+      "MinLevel": 30,
+      "MaxLevel": 47,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 74,
+      "Name": "Geodude",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 23,
+      "EvolvesAtLevel": 25,
+      "EvolvesIntoID": 75,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 75,
+      "Name": "Graveler",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 3,
+      "MinLevel": 25,
+      "MaxLevel": 45,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 76,
+      "SpecialEvolutionMethod": "Linking Cord",
+      "Movement": "Default"
+    },
+    {
+      "ID": 76,
+      "Name": "Golem",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 6,
+      "MinLevel": 45,
+      "MaxLevel": 70,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 77,
+      "Name": "Ponyta",
+      "TypeStrings": [
+        "Fire"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 5,
+      "MaxLevel": 32,
+      "EvolvesAtLevel": 40,
+      "EvolvesIntoID": 78,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 78,
+      "Name": "Rapidash",
+      "TypeStrings": [
+        "Fire"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 30,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 79,
+      "Name": "Slowpoke",
+      "TypeStrings": [
+        "Water",
+        "Psychic"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 7,
+      "MaxLevel": 35,
+      "EvolvesAtLevel": 37,
+      "EvolvesIntoID": 80,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 80,
+      "Name": "Slowbro",
+      "TypeStrings": [
+        "Water",
+        "Psychic"
+      ],
+      "SpawnWeight": 18,
+      "Strength": 5,
+      "MinLevel": 37,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 81,
+      "Name": "Magnemite",
+      "TypeStrings": [
+        "Electric",
+        "Steel"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 30,
+      "EvolvesIntoID": 82,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 82,
+      "Name": "Magneton",
+      "TypeStrings": [
+        "Electric",
+        "Steel"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 5,
+      "MinLevel": 30,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Flying"
+    },
+    {
+      "ID": 83,
+      "Name": "Farfetch'd",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 3,
+      "MinLevel": 5,
+      "MaxLevel": 46,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 84,
+      "Name": "Doduo",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 65,
+      "Strength": 2,
+      "MinLevel": 3,
+      "MaxLevel": 30,
+      "EvolvesAtLevel": 31,
+      "EvolvesIntoID": 85,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 85,
+      "Name": "Dodrio",
+      "TypeStrings": [
+        "Normal",
+        "Flying"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 4,
+      "MinLevel": 30,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 86,
+      "Name": "Seel",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 5,
+      "MaxLevel": 32,
+      "EvolvesAtLevel": 34,
+      "EvolvesIntoID": 87,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 87,
+      "Name": "Dewgong",
+      "TypeStrings": [
+        "Water",
+        "Ice"
+      ],
+      "SpawnWeight": 45,
+      "Strength": 6,
+      "MinLevel": 34,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 88,
+      "Name": "Grimer",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 85,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 34,
+      "EvolvesAtLevel": 38,
+      "EvolvesIntoID": 89,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 89,
+      "Name": "Muk",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 38,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 90,
+      "Name": "Shellder",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 1,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 91,
+      "SpecialEvolutionMethod": "Water Stone",
+      "Movement": "Default"
+    },
+    {
+      "ID": 91,
+      "Name": "Cloyster",
+      "TypeStrings": [
+        "Water",
+        "Ice"
+      ],
+      "SpawnWeight": 34,
+      "Strength": 5,
+      "MinLevel": 25,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 91,
+      "Name": "Gastly",
+      "TypeStrings": [
+        "Ghost",
+        "Poison"
+      ],
+      "SpawnWeight": 70,
+      "Strength": -1,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 25,
+      "EvolvesIntoID": 92,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 92,
+      "Name": "Haunter",
+      "TypeStrings": [
+        "Ghost",
+        "Poison"
+      ],
+      "SpawnWeight": 30,
+      "Strength": -1,
+      "MinLevel": 25,
+      "MaxLevel": 50,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 93,
+      "SpecialEvolutionMethod": "Linking Cord",
+      "Movement": "Default"
+    },
+    {
+      "ID": 93,
+      "Name": "Gengar",
+      "TypeStrings": [
+        "Ghost",
+        "Poison"
+      ],
+      "SpawnWeight": 2,
+      "Strength": 6,
+      "MinLevel": 50,
+      "MaxLevel": 65,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 94,
+      "Name": "Onix",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 95,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 95,
+      "Name": "Steelix",
+      "TypeStrings": [
+        "Steel",
+        "Ground"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 6,
+      "MinLevel": 25,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 96,
+      "Name": "Drowzee",
+      "TypeStrings": [
+        "Psychic"
+      ],
+      "SpawnWeight": 50,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 26,
+      "EvolvesIntoID": 97,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 97,
+      "Name": "Hypno",
+      "TypeStrings": [
+        "Psychic"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 5,
+      "MinLevel": 26,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 98,
+      "Name": "Krabby",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 75,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 30,
+      "EvolvesIntoID": 99,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 99,
+      "Name": "Kingler",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 30,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 100,
+      "Name": "Voltorb",
+      "TypeStrings": [
+        "Electric"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 101,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 101,
+      "Name": "Electrode",
+      "TypeStrings": [
+        "Electric"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 25,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 102,
+      "Name": "Exeggcute",
+      "TypeStrings": [
+        "Grass",
+        "Psychic"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 104,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 103,
+      "Name": "Exeggutor",
+      "TypeStrings": [
+        "Grass",
+        "Psychic"
+      ],
+      "SpawnWeight": 10,
+      "Strength": 6,
+      "MinLevel": 25,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 104,
+      "Name": "Cubone",
+      "TypeStrings": [
+        "Ground"
+      ],
+      "SpawnWeight": 70,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 28,
+      "EvolvesIntoID": 106,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 105,
+      "Name": "Marowak",
+      "TypeStrings": [
+        "Ground"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 28,
+      "MaxLevel": 55,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 106,
+      "Name": "Hitmonlee",
+      "TypeStrings": [
+        "Fighting"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 6,
+      "MinLevel": 20,
+      "MaxLevel": 70,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 107,
+      "Name": "Hitmonchan",
+      "TypeStrings": [
+        "Fighting"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 6,
+      "MinLevel": 20,
+      "MaxLevel": 70,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 108,
+      "Name": "Lickitung",
+      "TypeStrings": [
+        "Normal"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 3,
+      "MinLevel": 4,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 110,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 109,
+      "Name": "Koffing",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 5,
+      "MaxLevel": 32,
+      "EvolvesAtLevel": 35,
+      "EvolvesIntoID": 110,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 110,
+      "Name": "Weezing",
+      "TypeStrings": [
+        "Poison"
+      ],
+      "SpawnWeight": 20,
+      "Strength": 5,
+      "MinLevel": 35,
+      "MaxLevel": 60,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 111,
+      "Name": "Rhyhorn",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 65,
+      "Strength": 3,
+      "MinLevel": 15,
+      "MaxLevel": 40,
+      "EvolvesAtLevel": 42,
+      "EvolvesIntoID": 112,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 112,
+      "Name": "Rhydon",
+      "TypeStrings": [
+        "Rock",
+        "Ground"
+      ],
+      "SpawnWeight": 15,
+      "Strength": 5,
+      "MinLevel": 25,
+      "MaxLevel": 70,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 113,
+      "Name": "Chansey",
+      "TypeStrings": [
+        "Normal"
+      ],
+      "SpawnWeight": 5,
+      "Strength": 3,
+      "MinLevel": 1,
+      "MaxLevel": 40,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": 114,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 114,
+      "Name": "Tangela",
+      "TypeStrings": [
+        "Grass"
+      ],
+      "SpawnWeight": 60,
+      "Strength": 5,
+      "MinLevel": 5,
+      "MaxLevel": 32,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 115,
+      "Name": "Kangaskhan",
+      "TypeStrings": [
+        "Normal"
+      ],
+      "SpawnWeight": 36,
+      "Strength": 6,
+      "MinLevel": 20,
+      "MaxLevel": 70,
+      "EvolvesAtLevel": -1,
+      "EvolvesIntoID": -1,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": "Default"
+    },
+    {
+      "ID": 116,
+      "Name": "Horsea",
+      "TypeStrings": [
+        "Water"
+      ],
+      "SpawnWeight": 80,
+      "Strength": 2,
+      "MinLevel": 1,
+      "MaxLevel": 25,
+      "EvolvesAtLevel": 32,
+      "EvolvesIntoID": 117,
+
+      "SpecialEvolutionMethod": "",
+      "Movement": ""
+    }
+
+  ]
+}
